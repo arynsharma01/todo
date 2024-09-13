@@ -83,9 +83,5 @@ app.post('/signin',signinValidate, async(req:Request,res:Response)=>{
         "token" : token
     })
 })
-app.get('/try',(req,res)=>{
-    res.json({
-        "message" : "worli"
-    })
-})
+
 export {app as user }

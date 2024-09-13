@@ -82,8 +82,3 @@ app.post('/signin', input_1.signinValidate, (req, res) => __awaiter(void 0, void
         "token": token
     });
 }));
-app.get('/try', (req, res) => {
-    res.json({
-        "message": "worli"
-    });
-});
